@@ -1,0 +1,7 @@
+name = "hono-todo"
+main = "src/index.ts"
+compatibility_date = "2022-08-26"
+
+kv_namespaces = [
+  { binding = "HONO_TODO", preview_id = "9d766fea526043be8e40f6550436bc96", id = "1a136855b23f4b14aab395ab6247282a" }
+]
