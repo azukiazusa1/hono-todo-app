@@ -43,7 +43,7 @@ export const createTodo = async (
     title: param.title,
     completed: false,
   };
-  KV.put(`${PREFIX}${id}`, JSON.stringify(newTodo));
+  await KV.put(`${PREFIX}${id}`, JSON.stringify(newTodo));
 
   return newTodo;
 };
